@@ -1,0 +1,6 @@
+{
+  "name": "Locker Sans 柜构体",
+  "description": "基于快递柜下层柜门左铰链弹开动力学投影重构的实验字体设计与生成实验室",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
