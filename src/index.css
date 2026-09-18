@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0f1113;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #272a2f;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3e434a;
+  }
+}
+
+/* Disable interactive easing only while capturing an exact video frame. */
+[data-video-export="true"],
+[data-video-export="true"] *,
+[data-video-export="true"] *::before,
+[data-video-export="true"] *::after {
+  transition-property: none !important;
+  transition-duration: 0s !important;
+  transition-delay: 0s !important;
+  scroll-behavior: auto !important;
+  caret-color: transparent !important;
+}
